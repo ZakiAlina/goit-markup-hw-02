@@ -21,3 +21,24 @@
     --footer-background-color:##2F303A;
     --header-line: #ECECEC;
 }
+
+body {
+    background-color: var(--background-color);
+    color: var(--title-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+.dark-logo {
+    color: var(--dark-logo-color);
+}
