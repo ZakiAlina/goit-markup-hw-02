@@ -16,15 +16,38 @@
     --white-logo-color: #FFFFFF;
     --accent-color: #2196F3;
     --title-color: #212121;
-    --text-color: ##757575;
+    --text-color: #757575;
     --white-text-color: #FFFFFF;
-    --footer-background-color:##2F303A;
+    --footer-background-color:#2F303A;
     --header-line: #ECECEC;
+    --btn-active: #188CE8;
 }
 
 body {
     background-color: var(--background-color);
     color: var(--title-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.half-transparent {
+    opacity: 60%;
+}
+
+.button {
+    cursor: pointer;
+    border: 0;
 }
 
 .list {
@@ -35,10 +58,110 @@ body {
     text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
 .logo {
     color: var(--accent-color);
 }
 
 .dark-logo {
     color: var(--dark-logo-color);
+}
+
+.white-logo {
+    color: var(--white-logo-color);
+}
+
+.header-link {
+    color: var(--title-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.contacts-link {
+    color: var(--text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--footer-background-color);
+}
+
+.hero-title {
+    color: var(--white-text-color);
+}
+
+.hero-button {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+
+.hero-button:active {
+    background-color: var(--btn-active);
+}
+
+.features-item-title {
+    color: var(--title-color);
+}
+
+.features-item-text {
+    color: var(--text-color);
+}
+
+.title {
+    color: var(--title-color);
+}
+
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.team-name {
+    color: var(--title-color);
+}
+
+.team-position {
+    color: var(--text-color);
+}
+
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.address-link {
+    color: var(--white-text-color);
+}
+
+
+.portfolio-btn {
+    background-color: var(--secondary-background-color);
+    color: var(--title-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+}
+
+.portfolio-title {
+    color: var(--title-color);
+}
+
+.portfolio-text {
+    color: var(--text-color);
 }
