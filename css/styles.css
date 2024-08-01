@@ -26,6 +26,7 @@
 body {
     background-color: var(--background-color);
     color: var(--title-color);
+    font-family: 'Roboto', sans-serif;
 }
 
 .visually-hidden {
@@ -65,6 +66,7 @@ body {
 
 .logo {
     color: var(--accent-color);
+    font-family: 'Raleway';
 }
 
 .dark-logo {
