@@ -47,6 +47,7 @@ body {
 }
 
 .button {
+    font-family: inherit;
     cursor: pointer;
     border: 0;
 }
@@ -56,6 +57,7 @@ body {
 }
 
 .link {
+    font-style: normal;
     text-decoration: none;
 }
 
@@ -65,8 +67,12 @@ body {
 }
 
 .logo {
-    color: var(--accent-color);
     font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: calc(31/26);
+    color: var(--accent-color);
 }
 
 .dark-logo {
@@ -78,7 +84,15 @@ body {
 }
 
 .header-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
     color: var(--title-color);
+}
+
+.current {
+    color: var(--accent-color);
 }
 
 .header-link:hover,
@@ -86,11 +100,11 @@ body {
     color: var(--accent-color);
 }
 
-.current {
-    color: var(--accent-color);
-}
-
 .contacts-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
@@ -104,10 +118,21 @@ body {
 }
 
 .hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: calc(60/44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
     color: var(--white-text-color);
 }
 
 .hero-button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
     color: var(--white-text-color);
     background-color: var(--accent-color);
 }
@@ -117,14 +142,24 @@ body {
 }
 
 .features-item-title {
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 
 .features-item-text {
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
 .title {
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    text-align: center;
     color: var(--title-color);
 }
 
@@ -133,10 +168,18 @@ body {
 }
 
 .team-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(19/16);
+    letter-spacing: 0.03em;
+    text-align: center;
     color: var(--title-color);
 }
 
 .team-position {
+    line-height: calc(19/16);
+    letter-spacing: 0.03em;
+    text-align: center;
     color: var(--text-color);
 }
 
@@ -145,11 +188,19 @@ body {
 }
 
 .address-link {
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
     color: var(--white-text-color);
 }
 
 
 .portfolio-btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(26/16);
+    letter-spacing: 0.03em;
+    text-align: center;
     background-color: var(--secondary-background-color);
     color: var(--title-color);
 }
@@ -161,9 +212,14 @@ body {
 }
 
 .portfolio-title {
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
     color: var(--title-color);
 }
 
 .portfolio-text {
+    line-height: calc(30/16);
+    letter-spacing: 0.03em;
     color: var(--text-color);
 }
