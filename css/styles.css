@@ -1,0 +1,77 @@
+:root {
+    --background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --header-text-color: #212121;
+    --hero-text-color: #FFFFFF;
+    --hero-background-color: #2F303A;
+    --text-color: #757575;
+    --gorizontal-header-line: #ECECEC;
+    --footer-color: #2F303A;
+    --filter-btn-bgcolor: #F5F4FA;
+    --footer-text-color: #FFFFFF;
+    --dark-text-logo: #212121;
+    --light-text-logo: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--title-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: calc(30.52/26);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.dark-logo {
+    color: var(--dark-text-logo);
+}
+
+.header-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(16.41/14);
+    letter-spacing: 0.02em;
+    color: var(--header-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(16.41/14);
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
