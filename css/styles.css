@@ -121,3 +121,77 @@ body {
 .hero-btn:focus {
     background: var(--btn-color-active);
 }
+
+.features-title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: calc(16.41/14);
+        letter-spacing: 0.03em;
+        color: var(--title-color);
+}
+
+.features-text {
+    font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: var(--text-color);
+}
+
+.title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: calc(42.19/36);
+        letter-spacing: 0.03em;
+        color: var(--title-color);
+}
+
+.teams-section{
+
+    background-color: var(--secondary-background-color);
+}
+
+.teams-title{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: calc(18.75/16);
+        letter-spacing: 0.03em;
+        color: var(--title-color);
+}
+
+.teams-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: calc(18.75/16);
+        letter-spacing: 0.03em;
+        color: var(--text-color);
+}
+
+.footer {
+    background-color: var(--footer-color);
+}
+
+.footer-logo {
+    color: var(--light-text-logo);
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: var(--footer-text-color);
+}
+
+.footer-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
