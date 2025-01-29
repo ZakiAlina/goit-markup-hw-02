@@ -19,8 +19,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--background-color);
+    letter-spacing: 0.03em;
     color: var(--title-color);
+    background-color: var(--background-color);
 }
 
 .visually-hidden {
@@ -54,7 +55,6 @@ body {
     font-size: 26px;
     font-weight: 700;
     line-height: calc(30.52/26);
-    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
@@ -127,15 +127,11 @@ body {
     font-size: 14px;
     font-weight: 700;
     line-height: calc(16.41/14);
-    letter-spacing: 0.03em;
-    color: var(--title-color);
 }
 
 .features-text {
-    font-family: Roboto;
     font-size: 14px;
     line-height: calc(24/14);
-    letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
@@ -143,7 +139,6 @@ body {
     font-size: 36px;
     font-weight: 700;
     line-height: calc(42.19/36);
-    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 
@@ -155,13 +150,10 @@ body {
 .teams-title{
     font-weight: 500;
     line-height: calc(18.75/16);
-    letter-spacing: 0.03em;
-    color: var(--title-color);
 }
 
 .teams-text {
     line-height: calc(18.75/16);
-    letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
@@ -214,7 +206,6 @@ body {
     font-weight: 700;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
-    color: var(--title-color);
 }
 
 .portfolio-item-text {
