@@ -125,7 +125,6 @@ body {
 
 .features-title {
     font-size: 14px;
-    font-weight: 700;
     line-height: calc(16.41/14);
 }
 
@@ -137,7 +136,6 @@ body {
 
 .title {
     font-size: 36px;
-    font-weight: 700;
     line-height: calc(42.19/36);
     color: var(--title-color);
 }
@@ -203,9 +201,9 @@ body {
 
 .portfolio-item-title {
     font-size: 18px;
-    font-weight: 700;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
+    color: var(--title-color);
 }
 
 .portfolio-item-text {
